@@ -7,12 +7,12 @@ B = float(input ('Enter Velocity B Radians/ unit length_'))
 D = float(input ('Enter Length B unit length_'))                   
 print('----------------------------------------------')
 C = float(input ('Enter time T units of time, sec. or minutes_'))   
-O = A*C            # angle vector A in radians makes with the x-axis
-P = B*C            # angle vector B in radians makes with the x-ax
+O = A*C            
+P = B*C            
 import math
 print ('angle vector A in radians makes with the x-axis',O,'radians')
 print ('angle vector B in radians makes with the x-axis',P,'radians')
-G = math.pow(E,2)       # squares the length of vector A
+G = math.pow(E,2)      
 print('O Radians in Degrees:',math.degrees(O),'degrees')
 print('P Radians in Degrees:',math.degrees(P),'degrees')
 O1 = math.cos(O)
